@@ -5,7 +5,7 @@ input.addEventListener("keyup", countWord);
 
 function countWord() {
 var words = document.querySelector("#evaluatedText").value.trim();
-console.log(words);
+// console.log(words);
 var splitted = words.split(" ");
 var count = 0;
 
